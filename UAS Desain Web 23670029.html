@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Profil & Galeri</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.profil {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.aboutme {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.galeri {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.kontak {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+#profil, #galeri, #kontak {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kevin May's Bio</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profile</a></li>
+                <li><a href="#galeri">Gallery</a></li>
+                <li><a href="#kontak">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="profil">
+        <h2>About Kevin May</h2>
+        <p>Name : Kevin Meirianto Evan Putra</p>
+        <p>Region : Indonesia, Central Java, Semarang</p>
+        <p>Date of Birth : 2005/05/21</p>
+        <p>Age : 19</p>
+        <p>Instagram : https://www.instagram.com/epinnoturromeo/</p>
+    </section>
+
+    <section class="aboutme">
+        <h1>About Me</h1>
+        <p>Perkenalkan nama saya Kevin Meirianto Evan Putra, saya asli Semarang, Jawa Tengah. Saya mahasiswa Universitas PGRI Semarang dengan program studi Informatika. Mengenai tentang saya lebih lanjut, hobi saya ada macam-macam. Saya suka bermain basketball, saya juga mengidolakan pemain basketball terhebat seperti Kobe Bryant, Michael Jordan, LeBron James, Shaquille O'Neal yang terkenal dengan tubuh seperti titannya, dan lain-lain termasuk dengan tim-tim NBA (National Basketball Association) seperti Lakers dan Chicago Bulls. Selain itu saya juga hobi dicabang olahraga motorsport seperti Formula 1 dan MotoGP dengan mengidolakan pembalap seperti Ayrton Senna, Michael Schumacher, Max Verstappen, Valentino Rossi dan Marc Marquez di MotoGP. Termasuk itu saya juga hobi di dunia otomotif.</p>
+    </section>
+
+    <section class="galeri">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="./Profil 1.jpg">
+            <img src="./Profil 2.jpg">
+            <img src="./Profil 3.jpg">
+            <img src="./Profil 4.jpg">
+        </div>
+    </section>
+
+    <section class="kontak">
+        <h2>Contact</h2>
+        <p>Email: kevinmei779@gmail.com</p>
+        <p>Number: 0856-4102-6433</p>
+        <p>Alamat: Jl. Ketileng Indah Asri Baru IX No. 42, Semarang</p>
+    </section>
+
+    <footer>
+        <p>&copy; Kevin May's Bio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
